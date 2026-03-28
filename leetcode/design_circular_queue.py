@@ -5,7 +5,6 @@ class MyCircularQueue:
         self.size = k
         self.head = -1
         self.tail = -1
-
     def enQueue(self, value: int) -> bool:
         if self.isFull():
             return False
